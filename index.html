@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- DaisyUI and Tailwind CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/ebb5aeb04a.js" crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+            }
+    </style>
+</head>
+<body class="font-manrope">
+    <header class="bg-base-200 pt-6">
+        <!--! nav here -->
+        <nav class="container mx-auto ">
+            <div class="navbar">
+  
+                <div class="navbar-start">
+
+                    <!-- drop down here -->
+                    
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a class="hover:text-black hover:font-bold transition duration-300">Service</a></li>
+                      <li><a class="hover:text-black hover:font-bold transition duration-300">Portfolio</a></li>
+                      <li><a class="hover:text-black hover:font-bold transition duration-300">Blogs</a></li>
+                      <li><a class="hover:text-black hover:font-bold transition duration-300">Contact Us</a></li>
+                    </ul>
+                  </div>
+
+                  <!-- main logo here -->
+
+                  <div><a href="#"><i class="fa-solid fa-arrow-right rounded-full bg-lime-300 p-2 -rotate-45"></i></a></div>
+
+                  <a href="#"><h6 class="text-2xl font-extrabold pl-2">Rinterio</h6></a>
+
+                </div>
+
+                <!-- nav options here -->
+
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 font-semibold text-gray-400">
+                    <li><a class="font-bold text-black hover:text-white hover:bg-lime-400 transition duration-300">Home</a></li>
+                    <li><a class="hover:text-black hover:font-bold transition duration-300">Service</a></li>
+                    <li><a class="hover:text-black hover:font-bold transition duration-300">Portfolio</a></li>
+                    <li><a class="hover:text-black hover:font-bold transition duration-300">Blogs</a></li>
+                    <li><a class="hover:text-black hover:font-bold transition duration-300">Contact Us</a></li>
+                  </ul>
+                </div>
+                <!-- nav button here -->
+
+                <div class="navbar-end space-x-4 hidden md:flex">                   
+                    <a href="#"><i class="fa-solid fa-magnifying-glass rounded-full bg-white p-3"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-white p-3"></i></a>
+                    <a href="#"> <button class="bg-lime-300 px-4 py-2 rounded-full font-bold text-2xl">Book Consult <i class="fa-solid fa-arrow-right mx-2  rounded-full bg-black text-white p-2 -rotate-45"></i> </button></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ! Hero section Start Here-->
+
+        <section class="container mx-auto pb-6 md:pb-10 lg:20">
+            <div class="hero bg-base-200 ">
+                <div class="hero-content text-center">
+                  <div class="w-10/12 mx-auto">
+                    <div class="flex justify-center items-center"><img class="" src="./assets/banner.png" alt=""></div>
+                    <h1 class="text-2xl md:text-4xl lg:text-6xl font-extrabold">A barn house of this design has a striking appearance</h1>
+                    <p class="py-6 text-stone-600 md:font-semibold md:text-xl">
+                      Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                      quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    </p>
+                    <a href="#"> <button class="bg-lime-200 border-2 border-lime-300 px-4 py-2 rounded-full font-bold text-2xl">View Details <i class="fa-solid fa-arrow-right rounded-full bg-lime-300 p-2 -rotate-45"></i> </button></a>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </header>
+    
+</body>
+</html>
